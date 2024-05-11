@@ -1,4 +1,6 @@
 // Eliyahu Alhazov 318874831
+// Michael Miron 315199109
+
 
 function validateForm() {
     // Clear massage function

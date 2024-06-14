@@ -1,0 +1,54 @@
+/*Eliyahu Alhazov - 318874831/*
+/* Michael Miron - 315199109 /*
+
+/* Style the body */
+body {
+    background-color: rgb(140, 188, 245); /* Set background color to a light blue shade */
+    text-align: center; /* Center align text within the body */
+}
+
+/* Style the header */
+header {
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+/* Style the form */
+form {
+    display: inline-block; /* Center the form horizontally */
+    text-align: right; /* Align text within the form to the right */
+}
+
+/* Style form groups */
+.form-group {
+    margin-bottom: 10px; /* Add space below each form group */
+    border-bottom: 2px solid transparent; /* Add a transparent bottom border */
+    transition: border-color 0.3s; /* Smooth transition effect for border color change */
+}
+
+/* Change border color on hover */
+.form-group:hover {
+    border-color: orange; /* Change bottom border color to orange when hovered */
+}
+
+/* Style buttons */
+button {
+    border: 2px solid orange; /* Set a 2px solid orange border */
+    background-color: white; /* Set button background color to white */
+    padding: 10px 20px; /* Add padding inside the button for better spacing */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+/* Change button border color on hover */
+button:hover {
+    border-color: orange; /* Ensure border color remains orange on hover */
+}
+
+/* Style the footer */
+footer {
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Position the footer at the very bottom */
+    width: 100%; /* Make the footer span the full width of the viewport */
+    background-color: rgb(80, 95, 180); /* Set background color to a darker blue shade */
+    text-align: center; /* Center align text within the footer */
+    padding: 10px 0; /* Add padding to the top and bottom of the footer */
+}

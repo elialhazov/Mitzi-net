@@ -1,0 +1,78 @@
+<!-- Eliyahu Alhazov - 318874831 -->
+ <!-- Michael Miron - 315199109 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Specify the character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive viewport settings -->
+  <title>Registration Form</title> <!-- Title of the HTML document -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling -->
+  <link rel="icon" href="shopping.ico" type="image/x-icon"> <!-- Favicon for the website -->
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1> <!-- Main heading of the page -->
+    <img src="images.jpeg" alt="Logo" style="width:175px;height:175px;"> <!-- Logo image with specified dimensions -->
+  </header>
+
+  <!-- Registration Form -->
+  <form id="registerForm"> <!-- Registration form with a unique ID -->
+    <div class="form-group">
+      <label for="First_name">First Name:</label> <!-- Label for the first name input field -->
+      <input type="text" id="First_name" name="First_name" required> <!-- Text input for first name, required field -->
+    </div>
+    <div class="form-group">
+      <label for="last_name">Last Name:</label> <!-- Label for the last name input field -->
+      <input type="text" id="last_name" name="last_name" required> <!-- Text input for last name, required field -->
+    </div>
+    <div class="form-group">
+      <label for="Phone">Phone:</label> <!-- Label for the phone input field -->
+      <input type="text" id="Phone" name="Phone"> <!-- Text input for phone number -->
+    </div>
+    <div class="form-group">
+      <label for="Email">Email:</label> <!-- Label for the email input field -->
+      <input type="email" id="Email" name="Email" required> <!-- Email input field, required field -->
+      <span id="emailError" style="color: red;"></span> <!-- Span to display email error messages -->
+    </div>
+    <div class="form-group">
+      <label for="Password">Password:</label> <!-- Label for the password input field -->
+      <input type="password" id="Password" name="Password" required minlength="8"> <!-- Password input field, required with minimum length of 8 characters -->
+    </div>
+    <div class="form-group">
+      <label for="Password_verification">Verify Password:</label> <!-- Label for the password verification input field -->
+      <input type="password" id="Password_verification" name="Password_verification" required> <!-- Password verification input field, required field -->
+    </div>
+    <button type="submit" id="submitButton">Register</button> <!-- Submit button for the registration form -->
+  </form>
+
+  <!-- Delete Form -->
+  <footer>
+    <h2>Delete Me from the Database</h2> <!-- Subheading for the delete form section -->
+    <form id="deleteForm"> <!-- Delete form with a unique ID -->
+      <div class="form-group">
+        <label for="deleteEmail">Email:</label> <!-- Label for the email input field in the delete form -->
+        <input type="email" id="deleteEmail" name="Email" required> <!-- Email input field, required field -->
+        <span id="deleteEmailError" style="color: red;"></span> <!-- Span to display email error messages in the delete form -->
+      </div>
+      <div class="form-group">
+        <label for="deletePassword">Password:</label> <!-- Label for the password input field in the delete form -->
+        <input type="password" id="deletePassword" name="Password" required> <!-- Password input field, required field -->
+      </div>
+      <button type="submit">Delete</button> <!-- Submit button for the delete form -->
+    </form>
+    <p>&copy; 2024 Your Company</p> <!-- Copyright notice -->
+    <p>
+      "Find the website hosted on GitHub Pages" <!-- Text with a link to GitHub Pages -->
+      <a href="https://elialhazov.github.io/Mitzi-net/">here</a> <!-- Link to the GitHub Pages website -->
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="index.js"></script> <!-- Link to the JavaScript file for client-side validation and interactions -->
+</body>
+</html>
+
+
+
